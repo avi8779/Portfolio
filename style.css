@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;  
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;   
+}
+a{
+    text-decoration: none;
+    
+}
+.menu ul li{
+    list-style: none;
+}
+
+.menu-bar{
+    display: none;
+}
+
+
+
+    
+
+/* right contain************************************ */
+
+.right-contain h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+/* .hello{
+    font-size: 28px;
+    font-weight: 300;
+} */
+
+.color{
+    color: rgb(6, 188, 249);
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.btn button{
+    margin-top: 30px;
+    width: 20%;
+    padding: 10px 10px;
+    border: 1px solid rgb(6, 188, 249);
+    border-radius: 3px;
+}
+button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.5s;
+}
+.Book{
+    background-color: rgb(6, 188, 249);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    gap: 12px;
+}
+
+.Download{
+    margin-left: 10px;
+}
+
+.img-soft img{
+    display: inline-block;
+    width: 4%;
+}
+
+
+.main-home{
+    margin-top: 150px;
+}
+
+
+/* @media (min-width: 768px){
+    .menu{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+
+    .right-contain h1{
+        font-size: x-large;
+    }
+    .right-contain span{
+        font-size: small;
+    }
+
+    .btn button{
+        margin: auto 0;
+        margin-top: 30px;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 3px;
+    }
+
+    .main-home{
+        margin-top: 50px;
+    }
+    
+
+} */
+
+
+
+/* About me Css ------------------------------------------*/
+
+
+.about{
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.about p{
+    margin-top: 10px;
+}
+
+.img-me{
+    box-shadow: rgb(6, 188, 249);
+}
+
+/* portfolio ------------------------------------------ */
+
+.portfolio h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.project-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.project-btn button{
+    padding: 0px 15px;
+    border: none;
+    font-weight: 600;
+}
+
+.project{
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.project h2{
+    margin-top: 10px;
+}
+
+.project p {
+    margin-top: 10px;
+}
+
+.project-img img{
+    width: 500px;
+}
+
+.project .btn {
+    display: none;
+}
+
+
+@media (max-width: 576px){
+    .menu{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+
+    .right-contain h1{
+        font-size: x-large;
+    }
+    .right-contain span{
+        font-size: small;
+    }
+
+    .btn button{
+        margin: auto 0;
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 3px;
+    }
+
+    .main-home{
+        margin-top: 50px;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about h1{
+        font-size: x-large;
+    }
+    .about-info p {
+        font-size: small;
+        margin-top: 5px;
+    }
+
+    .img-me img{
+        margin: auto 0;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .project-btn {
+        gap: 20px;
+    }
+
+    .project .btn {
+        display: block;
+    }
+
+    .project-img img {
+        margin-top: 20px;
+    }
+
+
+    .project-btn button{
+        padding: 0px;
+        border: none;
+        font-weight: 600;
+    }
+    
+
+}
+
